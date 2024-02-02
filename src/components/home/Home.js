@@ -4,9 +4,9 @@ import './Home.scss';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Accueil</h2>
-      {/* Contenu de la section Accueil */}
+    <div className="home-container">
+      <h2 className="title">Bienvenue sur notre site</h2>
+      <p className="subtitle">Découvrez nos services et ce que nous offrons.</p>
     </div>
   );
 };

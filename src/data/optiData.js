@@ -1,10 +1,117 @@
-// servicesData.js
+// optiData.js
 const optiData = [
-    { id: 1, title: 'Service 1', description: 'Description du service 1' },
-    { id: 2, title: 'Service 2', description: 'Description du service 2' },
-    { id: 3, title: 'Service 3', description: 'Description du service 3' },
-    { id: 4, title: 'Service 4', description: 'Description du service 4' },
-  ];
-  
-  export default optiData;
-  
+  {
+    id: 1,
+    number: 1,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+  {
+    id: 2,
+    number: 2,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+  {
+    id: 3,
+    number: 3,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+  {
+    id: 4,
+    number: 4,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+  {
+    id: 5,
+    number: 1,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+  {
+    id: 6,
+    number: 2,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+  {
+    id: 7,
+    number: 3,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+  {
+    id: 8,
+    number: 4,
+    title: 'OPTI 1',
+    description: 'BENCH # AVEC FPS MOYEN',
+    pricePC: 800,    
+    perfPC: 136,    
+    resultPC: 136,
+    priceOPTI: 25,    
+    perfOPTI: 80,    
+    resultOPTI: 20,
+    review: 'avis', 
+    image: 'url capframex'
+  },
+];
+
+export default optiData;

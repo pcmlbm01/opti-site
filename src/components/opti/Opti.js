@@ -1,18 +1,19 @@
-// Services.js
+// Opti.js
 import React from 'react';
 import OptiItem from './OptiItem';
 import optiData from '../../data/optiData';
-import './Opti.scss';
 
-const Services = () => {
+const Opti = () => {
   return (
-    <div>
+    <div className='opti-item'>
       <h2>Opti</h2>
-      {optiData.map(optiItem => (
-        <OptiItem key={optiItem.id} optiItem={optiItem} />
-      ))}
+      <div className='opti-list-item'>
+        {optiData.map(optiItem => (
+          <OptiItem key={optiItem.id} optiItem={optiItem} />
+        ))}
+      </div>
     </div>
   );
 };
 
-export default Services;
+export default Opti;
