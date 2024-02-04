@@ -1,17 +1,30 @@
 // Header.scss
 .header-container {
-    background-color: #3498db;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #3F5347;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container h2 {
+  display: none;
+}
+
+.social-icons {
+
+  i {
+    font-size: 2em;
+    margin: 0 10px;
+    color: #E7A165;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: #CF5C09; 
+    }
   }
-  
-  .header-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .header-subtitle {
-    font-size: 16px;
-  }
-  
+}

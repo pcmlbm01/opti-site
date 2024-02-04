@@ -1,16 +1,11 @@
 // Footer.scss
 .footer-container {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+    background-color: #3F5347;
+    color: #E7A165;
     width: 100%;
-  }
-  
-  .footer-text {
-    font-size: 14px;
+    height: 50px;
+    display: flex;
+    place-content: center;
   }
   
   

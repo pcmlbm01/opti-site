@@ -1,16 +1,28 @@
 // OptiItem.scss
 .opti-item-container {
     box-sizing: border-box;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 15px;
+    color: #3F5347;
+    background-color: #BABDB2;
+    margin: 10px;
+    width: calc(15% - 20px);
+    border-radius: 5px;
+    border: #6F7C6B 3px solid;
+  }
+
+  .opti-item-container i {
+    margin-right: 5px;
+  }
+
+  .opti-item-other i {
+    color: #CF5C09;
   }
   
   .opti-item-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    background-color: #6F7C6B;
+    padding: 10px;
   
     p {
       margin: 0;
@@ -26,13 +38,16 @@
   
   .opti-item-description {
     font-size: 16px;
-    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #E7A165;
+    font-weight: bold;
+    margin: 0;
   }
   
   .opti-item-details {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    padding: 10px;
   
     div {
       flex: 1;
@@ -40,28 +55,25 @@
   
       p {
         margin: 0;
-        font-weight: bold;
-        font-size: 16px;
       }
     }
   }
   
-  .opti-item-review {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .opti-item-image {
+  .opti-item-image, .opti-item-step, .opti-item-review {
     max-width: 100%;
     height: auto;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
   }
   
   .opti-list-item {
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 10px 0;
   }
 
   .opti-item h2 {
@@ -70,4 +82,13 @@
 
   .opti-item {
     text-align: -webkit-center;
+    background-color: #9BA59C;
+  }
+
+  .opti-item-other {
+    display: flex;
+    align-items: center;
+    place-content: space-around;
+    background-color: #6F7C6B;
+    padding: 0 10px;
   }

@@ -6,10 +6,10 @@ const OptiItem = ({ optiItem }) => {
   return (
     <div className="opti-item-container">
       <div className="opti-item-header">
-        <p>{optiItem.number}</p>
-        <h3>{optiItem.title}</h3>
+        <p><i class="fa-solid fa-gamepad"></i>{optiItem.title}</p>
+        <p><i class="fa-solid fa-hashtag"></i>{optiItem.number}</p>
       </div>
-      <p className="opti-item-description">{optiItem.description}</p>
+      <p className="opti-item-description"><i class="fa-solid fa-fire-flame-curved"></i>{optiItem.description}</p>
       <div className="opti-item-details">
         <div>
           <p>{optiItem.pricePC}</p>
@@ -24,8 +24,11 @@ const OptiItem = ({ optiItem }) => {
           <p>{optiItem.resultOPTI}</p>
         </div>
       </div>
-      <p className="opti-item-review">{optiItem.review}</p>
-      <img className="opti-item-image" src={optiItem.image} alt={`Image for ${optiItem.title}`} />
+      <div className='opti-item-other'>
+        <p className="opti-item-step"><i class="fa-solid fa-forward-step"></i>{optiItem.step}</p>
+        <p className="opti-item-review"><i class="fa-solid fa-comment"></i>{optiItem.review}</p>
+        <p className="opti-item-image"><i class="fa-solid fa-image"></i>{optiItem.image}</p>
+      </div>
     </div>
   );
 };
